@@ -1,0 +1,42 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductFeature__c",
+                "referenceId": "ProductFeature__cRef1"
+            },
+            "GlobalRateTier__r": {
+                "attributes": {
+                    "type": "GlobalRateTier__c",
+                    "url": "/services/data/v51.0/sobjects/GlobalRateTier__c/a055g000000nsUGAAY"
+                },
+                "Name": "First Merchants First Direct Checking",
+                "RegionCode__c": 9001,
+                "Rate__c": "DD1",
+                "ProductCode__c": "1DS"
+            },
+            "Name": "Minimum Opening Amount",
+            "ValueName__c": "Minimum Opening Amount",
+            "Value__c": "$1000"
+        },
+        {
+            "attributes": {
+                "type": "ProductFeature__c",
+                "referenceId": "ProductFeature__cRef2"
+            },
+            "GlobalRateTier__r": {
+                "attributes": {
+                    "type": "GlobalRateTier__c",
+                    "url": "/services/data/v51.0/sobjects/GlobalRateTier__c/a055g000000nsUGAAY"
+                },
+                "Name": "First Merchants First Direct Checking",
+                "RegionCode__c": 9001,
+                "Rate__c": "DD1",
+                "ProductCode__c": "1DS"
+            },
+            "Name": "Monthly Benefits!",
+            "ValueName__c": "Monthly Benefits",
+            "Value__c": "300 free items, plus unlimited ACH credits and debits received; items include checks paid, check deposited items, and various other debits"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductFeature__c",
+                "referenceId": "ProductFeature__cRef1"
+            },
+            "ValueName__c": "Minimum Opening Amount",
+            "Value__c": "$1000",
+            "GlobalRatesTier__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "GlobalRateTier__c",
+                            "referenceId": "GlobalRateTier__cRef1"
+                        },
+                        "Name": "First Merchants First Direct Checking",
+                        "ProductCode__c": "1DS",
+                        "ProductName__c": "First Merchants First Direct Checking",
+                        "RegionCode__c": 9003,
+                        "Rate__c": "DD3"
+                    },
+                    {
+                        "attributes": {
+                            "type": "GlobalRateTier__c",
+                            "referenceId": "GlobalRateTier__cRef2"
+                        },
+                        "Name": "First Merchants First Direct Checking",
+                        "ProductCode__c": "1DS",
+                        "ProductName__c": "First Merchants First Direct Checking",
+                        "RegionCode__c": 9002,
+                        "Rate__c": "DD2"
+                    },
+                    {
+                        "attributes": {
+                            "type": "GlobalRateTier__c",
+                            "referenceId": "GlobalRateTier__cRef3"
+                        },
+                        "Name": "First Merchants First Direct Checking",
+                        "ProductCode__c": "1DS",
+                        "ProductName__c": "First Merchants First Direct Checking",
+                        "RegionCode__c": 9005,
+                        "Rate__c": "DD5"
+                    },
+                    {
+                        "attributes": {
+                            "type": "GlobalRateTier__c",
+                            "referenceId": "GlobalRateTier__cRef4"
+                        },
+                        "Name": "First Merchants First Direct Checking",
+                        "ProductCode__c": "1DS",
+                        "ProductName__c": "First Merchants First Direct Checking",
+                        "RegionCode__c": 9001,
+                        "Rate__c": "DD1"
+                    },
+                    {
+                        "attributes": {
+                            "type": "GlobalRateTier__c",
+                            "referenceId": "GlobalRateTier__cRef5"
+                        },
+                        "Name": "First Merchants First Direct Checking",
+                        "ProductCode__c": "1DS",
+                        "ProductName__c": "First Merchants First Direct Checking",
+                        "RegionCode__c": 9004,
+                        "Rate__c": "DD4"
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "ProductFeature__c",
+                "referenceId": "ProductFeature__cRef2"
+            },
+            "ValueName__c": "Monthly Benefits",
+            "Value__c": "300 free items, plus unlimited ACH credits and debits received; items include checks paid, check deposited items, and various other debits",
+            "GlobalRatesTier__r": {
+                "records": []
+            }
+        }
+    ]
+}

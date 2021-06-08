@@ -1,0 +1,132 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Phone": "(512) 757-6000",
+            "Name": "Edge Communications",
+            "BillingState": "TX",
+            "BillingCity": "Austin",
+            "Active__c": "Yes"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Phone": "(336) 222-7000",
+            "Name": "Burlington Textiles Corp of America",
+            "BillingState": "NC",
+            "BillingCity": "Burlington"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Phone": "(014) 427-4427",
+            "Name": "Pyramid Construction Inc.",
+            "BillingCity": "Paris",
+            "Active__c": "Yes"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef4"
+            },
+            "Phone": "(785) 241-6200",
+            "Name": "Dickenson plc",
+            "BillingState": "KS",
+            "BillingCity": "Lawrence",
+            "Active__c": "Yes"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef5"
+            },
+            "Phone": "(312) 596-1000",
+            "Name": "Grand Hotels & Resorts Ltd",
+            "BillingState": "IL",
+            "BillingCity": "Chicago",
+            "Active__c": "Yes"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef6"
+            },
+            "Phone": "(212) 842-5500",
+            "Name": "United Oil & Gas Corp.",
+            "BillingState": "NY",
+            "BillingCity": "New York",
+            "Active__c": "Yes"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef7"
+            },
+            "Phone": "(503) 421-7800",
+            "Name": "Express Logistics and Transport",
+            "BillingState": "OR",
+            "BillingCity": "Portland",
+            "Active__c": "Yes"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef8"
+            },
+            "Phone": "(520) 773-9050",
+            "Name": "University of Arizona",
+            "BillingState": "AZ",
+            "BillingCity": "Tucson",
+            "Active__c": "Yes"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef9"
+            },
+            "Phone": "+44 191 4956203",
+            "Name": "United Oil & Gas, UK",
+            "BillingState": "UK",
+            "Active__c": "Yes"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef10"
+            },
+            "Phone": "(650) 450-8810",
+            "Name": "United Oil & Gas, Singapore",
+            "BillingState": "Singapore",
+            "BillingCity": "Singapore",
+            "Active__c": "Yes"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef11"
+            },
+            "Phone": "(650) 867-3450",
+            "Name": "GenePoint",
+            "BillingState": "CA",
+            "BillingCity": "Mountain View",
+            "Active__c": "Yes"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef12"
+            },
+            "Phone": "(415) 901-7000",
+            "Name": "sForce",
+            "BillingState": "CA",
+            "BillingCity": "San Francisco"
+        }
+    ]
+}
