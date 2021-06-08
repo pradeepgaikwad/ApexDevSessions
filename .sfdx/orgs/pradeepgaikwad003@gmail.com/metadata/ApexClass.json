@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "result": {
+    "createdById": "0055g000003DG9hAAG",
+    "createdByName": "Pradeep Gaikwad",
+    "createdDate": "2021-01-24T08:04:16.000Z",
+    "fileName": "classes/Hello.cls",
+    "fullName": "Hello",
+    "id": "01p5g0000042FjIAAU",
+    "lastModifiedById": "0055g000003DG9hAAG",
+    "lastModifiedByName": "Pradeep Gaikwad",
+    "lastModifiedDate": "2021-01-24T08:04:16.000Z",
+    "manageableState": "unmanaged",
+    "type": "ApexClass"
+  }
+}
