@@ -1,0 +1,11 @@
+PageReference PDf =  Page.GlobalRateDocument;//Replace attachmentPDf with the page you have rendered as PDF
+PDf.getParameters().put('Id','a055g000000nsUaAAI');
+PDf.setRedirect(true);
+Attachment attach = new Attachment();
+Blob b ;
+b = PDf.getContent();
+attach.Body = b;
+attach.Name = 'Confirmation of product';
+attach.IsPrivate = false;
+attach.ParentId = 'a055g000000nsUaAAI';
+insert attach;
