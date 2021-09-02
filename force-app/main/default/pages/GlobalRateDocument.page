@@ -1,0 +1,36 @@
+<apex:page applyBodyTag="false" renderAs="pdf" standardController="GlobalRateTier__c" extensions="GlobalRateDocumentExtension" applyHtmlTag="false" showHeader="false">
+    <head>
+        <style>
+            @page{
+            size: A4 portrait;
+            margin-top: 40px;
+            margin-left: 60px;
+            margin-right: 60px;            
+            }
+        </style>
+    </head>
+    <apex:pageBlock title="SBI Global Rates">
+    </apex:pageBlock>
+    <apex:pageBlock >
+        <table  border="1px" style="border-collapse: collapse; width: 100%;">
+            <tr style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd; background-color: #00FFFF">
+                <th>Name</th>
+                <th>Region</th>
+                <th>Rate</th>
+            </tr>
+            <apex:repeat value="{!rateList}" var="items">
+                <tr>
+                    <td>
+                        <apex:outputText value="{!items.Name}"></apex:outputText>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!items.RegionCode__c}"></apex:outputText>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!items.Rate__c}"></apex:outputText>
+                    </td>
+                </tr>
+            </apex:repeat>
+        </table>
+    </apex:pageBlock>
+</apex:page>
